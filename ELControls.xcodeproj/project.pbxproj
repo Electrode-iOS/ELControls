@@ -154,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "The Holy Grail";
+				ORGANIZATIONNAME = "WalmartLabs";
 				TargetAttributes = {
 					226570841B59D5E80093FF11 = {
 						CreatedOnToolsVersion = 7.0;

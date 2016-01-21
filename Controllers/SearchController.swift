@@ -2,7 +2,7 @@
 //  SearchController.swift
 //
 //  Created by Sam Grover on 7/2/15.
-//  Copyright (c) 2015 The Holy Grail. All rights reserved.
+//  Copyright (c) 2015 WalmartLabs. All rights reserved.
 //
 
 import UIKit
