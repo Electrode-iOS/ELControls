@@ -1,15 +1,15 @@
 //
-//  THGControlsTests.swift
-//  THGControlsTests
+//  ELControlsTests.swift
+//  ELControlsTests
 //
 //  Created by Sam Grover on 7/17/15.
 //  Copyright © 2015 The Holy Grail. All rights reserved.
 //
 
 import XCTest
-@testable import THGControls
+@testable import ELControls
 
-class THGControlsTests: XCTestCase {
+class ELControlsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
