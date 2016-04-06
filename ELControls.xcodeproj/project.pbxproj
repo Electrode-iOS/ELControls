@@ -10,7 +10,8 @@
 		226570891B59D5E80093FF11 /* ELControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 226570881B59D5E80093FF11 /* ELControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		226570901B59D5E80093FF11 /* ELControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226570851B59D5E80093FF11 /* ELControls.framework */; };
 		226570951B59D5E80093FF11 /* ELControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226570941B59D5E80093FF11 /* ELControlsTests.swift */; };
-		226570A11B59D6130093FF11 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226570A01B59D6120093FF11 /* SearchController.swift */; };
+		CAEB71161CB56D56003E1BC9 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB71151CB56D56003E1BC9 /* SearchController.swift */; };
+		CAEB711B1CB56DFF003E1BC9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB711A1CB56DFF003E1BC9 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,8 @@
 		2265708F1B59D5E80093FF11 /* ELControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		226570941B59D5E80093FF11 /* ELControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELControlsTests.swift; sourceTree = "<group>"; };
 		226570961B59D5E80093FF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		226570A01B59D6120093FF11 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		CAEB71151CB56D56003E1BC9 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		CAEB711A1CB56DFF003E1BC9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,6 @@
 		2265707B1B59D5E80093FF11 = {
 			isa = PBXGroup;
 			children = (
-				2265709F1B59D6120093FF11 /* Controllers */,
 				226570871B59D5E80093FF11 /* ELControls */,
 				226570931B59D5E80093FF11 /* ELControlsTests */,
 				226570861B59D5E80093FF11 /* Products */,
@@ -74,6 +75,8 @@
 		226570871B59D5E80093FF11 /* ELControls */ = {
 			isa = PBXGroup;
 			children = (
+				CAEB71171CB56D5C003E1BC9 /* Extensions */,
+				CAEB71141CB56D56003E1BC9 /* Controllers */,
 				226570881B59D5E80093FF11 /* ELControls.h */,
 				2265708A1B59D5E80093FF11 /* Info.plist */,
 			);
@@ -89,12 +92,20 @@
 			path = ELControlsTests;
 			sourceTree = "<group>";
 		};
-		2265709F1B59D6120093FF11 /* Controllers */ = {
+		CAEB71141CB56D56003E1BC9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				226570A01B59D6120093FF11 /* SearchController.swift */,
+				CAEB71151CB56D56003E1BC9 /* SearchController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAEB71171CB56D5C003E1BC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB711A1CB56DFF003E1BC9 /* UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +165,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "WalmartLabs";
+				ORGANIZATIONNAME = WalmartLabs;
 				TargetAttributes = {
 					226570841B59D5E80093FF11 = {
 						CreatedOnToolsVersion = 7.0;
@@ -204,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226570A11B59D6130093FF11 /* SearchController.swift in Sources */,
+				CAEB711B1CB56DFF003E1BC9 /* UIView.swift in Sources */,
+				CAEB71161CB56D56003E1BC9 /* SearchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
