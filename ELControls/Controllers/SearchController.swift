@@ -102,8 +102,8 @@ class SearchController: UIViewController, UISearchBarDelegate {
         super.viewWillAppear(animated)
         
         // Handle keyboard changes
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name: UIKeyboardWillHideNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SearchController.keyboardWillShow(_:)), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SearchController.keyboardWillHide(_:)), name: UIKeyboardWillHideNotification, object: nil)
         
         searchBar.becomeFirstResponder()
     }
